@@ -7,4 +7,4 @@ pipelines:
     - step:        
         script:
           - git filter-branch -- --all
-          - git push https://heroku:4339367b-b5d6-44df-a27b-72b5c2a078e6@git.heroku.com/dany-test3.git
+          - git push -f https://heroku:4339367b-b5d6-44df-a27b-72b5c2a078e6@git.heroku.com/dany-test3.git
